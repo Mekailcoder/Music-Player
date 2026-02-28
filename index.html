@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main id="main">
+      <div class="container">
+        <div class="musicImg">
+          <h2 class="Music_Populer">Topchart</h2>
+          <div class="card_container"></div>
+        </div>
+        <div class="musicList">
+          <h2 class="Music_Populer">Most Populer</h2>
+        </div>
+        <div class="musicPlyer">
+          <h2 class="Music_Populer">Now Playing</h2>
+          <div class="box_container">
+            <div class="box">
+              <img
+                id="ply_img"
+                class="box_img"
+                src="./image/download.jfif"
+                alt=""
+              />
+              <h4 class="song-title">Dhun</h4>
+              <p class="singer-name">Arijeet</p>
+              <div class="progress-container">
+                <div class="progress"></div>
+              </div>
+            </div>
+
+            <div class="paly_btn">
+              <i id="backward" class="paly_btn_icon ri-arrow-left-s-fill"></i>
+              <h3 id="play">
+                <i class="paly_btn_icon middle ri-play-fill"></i>
+              </h3>
+              <i id="forward" class="paly_btn_icon ri-arrow-right-s-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
